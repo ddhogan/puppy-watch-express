@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puppy Watch!</title>
+</head>
+<body>
+  <h1>🦝 Hello world or whatever</h1>
+  <p>Goals:</p>
+  <ol>
+    <li>Function that scrapes the endpoint, collects the json data in S3</li>
+      <ul>
+        <li>Done!</li>
+      </ul>
+    <li>Function that iterates through the json objects and writes each item to MongoDb</li>
+      <ul>
+        <li>That function should ideally do something if a new item is written <br> (like, if a json object matches on name and breed, for example, then don't make a new entry, and instead do some other thing)</li>
+      </ul>
+    <li>Connect that function to a notification service like Twilio in this example: <a href="https://medium.com/microsoftazure/building-a-diy-adhd-medication-reminder-with-azure-functions-e84e4b0611c3">building-a-diy-adhd-medication-reminder-with-azure-functions</a></li>
+    <li>Server for managing the Db.</li>
+      <ul>
+        <li>Done! Used this <a href="https://thecodepixi.dev/blog/express-mongoose-crud-api/">amazing tutorial</a> from TheCodePixi</li>
+      </ul>
+    <li>Fancy front end for interacting with the Db.  React or Vue.</li>
+  </ol>
+</body>
+</html>

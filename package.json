@@ -1,0 +1,23 @@
+{
+  "name": "puppy-watch-express-rest-api",
+  "version": "0.0.1",
+  "description": "A simple express.js rest API for accessing the stored puppies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index",
+    "run": "node index"
+  },
+  "author": "DDH",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
